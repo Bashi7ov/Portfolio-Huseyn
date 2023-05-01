@@ -1,0 +1,603 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+ul {
+list-style: none;
+}
+
+
+/* navbar hissesi start */
+.navbar {
+    padding-top: 41px;
+}
+
+.navbar .nav-links a {
+    padding-right: 7px;
+    color: #000;
+}
+
+.navbar .hover-link {
+    display: none;
+}
+
+.navbar .hover-link .fa-bars {
+    display: none;
+}
+
+.navbar .hover-link {
+    text-align: center;
+}
+
+
+.navbar .hover-link .hover-links a {
+    color: #000;
+    font-size: 20px;
+    
+    
+}
+
+.navbar .hover-link .hover-links {
+    display: none;
+}
+.navbar .hover-link .hover-links i {
+    display: block;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+@media(max-width:768px) {
+    .navbar .hover-link {
+        display: block;
+    }
+
+    .navbar .nav-links {
+        display: none;
+    }
+
+
+    .navbar .hover-link .fa-bars {
+        display: block;
+    }
+
+}
+
+/* navbar hissesi Finish */
+
+
+/* introdaction hissesi start */
+.introdaction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.introdaction .introdaction-left {
+    padding-top: 100px;
+    min-width: 400px;
+}
+
+
+.introdaction .introdaction-left h1 span {
+    color: #FF8A56;
+}
+
+.introdaction .introdaction-left h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.introdaction .introdaction-left p {
+    padding-bottom: 20px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.introdaction .introdaction-left .booke-a-call button {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #ffff;
+}
+
+.introdaction .introdaction-left .booke-a-call a {
+    padding: 15px;
+    border-radius: 5px;
+    color: #000;
+}
+
+
+.introdaction .introdaction-right {
+    width: 260px;
+    height: 350px;
+    min-width: 300px;
+    padding-top: 60px;
+}
+
+.introdaction .introdaction-right img {
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width:991px) {
+    .introdaction .introdaction-left h1 {
+        font-size: 3rem;
+    }
+
+    .introdaction .introdaction-left p {
+        font-size: 15px
+    }
+
+    .introdaction .introdaction-left .booke-a-call {
+        font-size: 15px;
+    }
+
+    .introdaction .introdaction-left .booke-a-call button {
+        padding: 10px;
+    }
+
+}
+
+@media(max-width:768px) {
+    .introdaction {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introdaction .introdaction-left {
+        text-align: center;
+    }
+
+    .introdaction .introdaction-right {
+        text-align: center;
+        width: 190px;
+        height: 280px;
+    }
+
+    .introdaction .introdaction-left h1 {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .introdaction .introdaction-left p {
+        font-size: 12px;
+    }
+
+    .introdaction .introdaction-left .booke-a-call {
+        font-size: 12px;
+    }
+}
+
+/* introdaction hissesi finish */
+
+
+/* tursted by hissesi start */
+.trusted-by-companies {
+    padding-top: 45px;
+}
+
+.trusted-by-companies .trusted-by {
+    font-size: 22px;
+    color: #FF8A56;
+    text-align: center;
+}
+
+.trusted-by-companies .companies {
+    padding-top: 40px;
+}
+
+.trusted-by-companies .companies .companie {
+    text-align: center;
+}
+
+.trusted-by-companies .companies .companie img {
+    width: 170px;
+}
+
+@media(max-width:991px) {
+    .trusted-by-companies .companies :nth-child(4) {
+        display: none;
+    }
+
+    .trusted-by-companies .companies .companie img {
+        width: 150px;
+    }
+}
+
+@media(max-width:768px) {
+    .trusted-by-companies .companies :nth-child(3) {
+        display: none;
+    }
+
+    .trusted-by-companies .companies .companie img {
+        width: 120px;
+    }
+}
+
+/* trusted by  hissesi finish */
+
+
+/* services hissesi start */
+.section-services {
+    padding-top: 100px;
+}
+
+.section-services h4 {
+    color: #FF5E69;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.section-services h2 {
+    padding-top: 30px;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-services .service-aplications {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-services .service-aplications .service-aplication {
+    width: 300px;
+}
+
+.section-services .service-aplications .service-aplication img {
+    margin-bottom: 30px;
+}
+
+.section-services .service-aplications .service-aplication h5 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.section-services .service-aplications .service-aplication span {
+    margin-bottom: 30px;
+    display: inline-block;
+    font-weight: 100;
+}
+
+.section-services .service-aplications .service-aplication ul {
+    list-style: disc;
+    list-style-position: inside;
+    font-weight: 700;
+}
+
+.section-services .service-aplications .service-aplication ul li {
+    margin-bottom: 15px;
+}
+
+
+
+@media(max-width:991px) {
+    .section-services h4 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .section-services h2 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .section-services .service-aplications {
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-services .service-aplications .app-3 {
+        margin-top: 30px;
+    }
+
+}
+
+@media(max-width:768px) {
+    .section-services h4 {
+        font-size: 18px;
+    }
+
+    .section-services h2 {
+        font-size: 2rem;
+    }
+
+    .section-services .service-aplications .app-3 {
+        margin-top: 0px;
+    }
+
+    .section-services .service-aplications .service-aplication {
+        margin-top: 30px;
+    }
+}
+
+/* services hissesi finish  */
+
+
+/* projects hissesi start */
+.section-projects {
+    padding-top: 90px;
+}
+
+.section-projects .projects-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-projects .projects h4 {
+    color: #B16CEA;
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.section-projects .projects-flex .projects h3 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.section-projects .projects-flex .projects-btn {
+    align-self: center;
+    padding-right: 45px;
+}
+
+.section-projects .projects-flex .projects-btn button {
+    background-color: #000;
+    color: #ffff;
+    width: 200px;
+    height: 40px;
+}
+
+.section-projects .projects-imgs {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.section-projects .projects-imgs .project-img h5 {
+    color: #3C46FF;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.section-projects .projects-imgs .project-img h4 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.section-projects .projects-imgs .project-img a {
+    color: #000;
+    font-size: 18px;
+    padding-top: 15px;
+    display: inline-block;
+    font-weight: 500;
+    padding-right: 15px;
+}
+
+.section-projects .projects-imgs .project-img {
+    width: 350px;
+    border-radius: 10px;
+    background-color: #ffff;
+}
+
+.section-projects .projects-imgs .project-img :nth-child(1) {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+@media(max-width:991px) {
+    .section-projects .projects h4 {
+        font-size: 18px;
+    }
+
+    .section-projects .projects-flex .projects h3 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .section-projects .projects-flex .projects-btn {
+        align-self: center;
+        padding-right: 0px;
+    }
+
+    .section-projects .projects-flex .projects-btn button {
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .section-projects .projects-imgs {
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-projects .projects-imgs :nth-child(3) {
+        padding-top: 50px;
+    }
+}
+
+@media(max-width:768px) {
+    .section-projects .projects h4 {
+        font-size: 16px;
+    }
+
+    .section-projects .projects-flex .projects h3 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .section-projects .projects-flex .projects-btn {
+        align-self: center;
+        padding-right: 0px;
+    }
+
+    .section-projects .projects-flex .projects-btn button {
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .section-projects .projects-imgs :nth-child(3) {
+        padding-top: 0px;
+    }
+
+    .section-projects .projects-imgs .project-img {
+        padding-top: 30px;
+        margin-bottom: 15px;
+    }
+
+}
+
+/*projects hissesi finish */
+
+/*blogs hissesi start */
+.section-blog {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    margin-top: -130px;
+}
+
+.oxs {
+    display: flex;
+    padding-top: 190px;
+    justify-content: right;
+}
+
+.ox {
+    background-color: #fff;
+    padding: 15px 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.ox img {
+    width: 20px;
+    height: 20px;
+}
+
+.blogs-flex {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogs-flex .blogs h4 {
+    font-size: 22px;
+    font-weight: 700;   
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    color: #FF8A56;
+    padding-left: 15px;
+}
+
+.blogs-flex .blogs h2 {
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    color: #fff;
+}
+
+.blogs-flex .blogs a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 15px;
+    display: inline-block;
+    margin-bottom: 60px;
+    transition: 1s;
+}
+
+.blogs-flex .blogs i {
+    padding-left: 15px;
+}
+
+
+.blogs-right .blog-right {
+    padding-right: 60px;
+    padding-top: 40px;
+    border-bottom: 1px solid #FF8A56;
+}
+
+.blogs-right .blog-right small {
+    padding-bottom: 15px;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.blogs-right .blog-right h3 {
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 35px;
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.blogs-right .blog-right a {
+    color: #fff;
+    margin-bottom: 60px;
+    display: inline-block;
+    font-weight: 700;
+    padding: 15px 15px;
+}
+
+.blogs-right .blog-right i {
+    padding-left: 15px;
+}
+
+
+@media(max-width:991px) {
+    .section-blog {
+        background-color: #000;
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+    }
+
+    .blogs-flex .blogs {
+        border-bottom: 1px solid #FF8A56;
+    }
+
+    .blogs-flex {
+        text-align: center;
+    }
+
+    .blogs-right .blog-right {
+        padding-right: 0px;
+    }
+
+}
+
+@media(max-width:7638px) {
+    .blogs-right .blog-right h3 {
+        font-size: 20px;
+    }
+}
+
+/*blogs hissesi finish */
